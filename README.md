@@ -36,14 +36,11 @@ npm run start <path-to-config>
 #### Configurations
 
 
-`width`
-Width of canvas
+`width` - Width of canvas
 
-`height`
-Height of canvas
+`height` - Height of canvas
 
-`cellSize`
-Size of triangles
+`cellSize` : Size of triangles
 
 `variance`
 Variance in angles
