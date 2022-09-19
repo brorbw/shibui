@@ -67,7 +67,7 @@ const light = trianglify({
 const outputDIR = config.path || path.join(__dirname, 'output')
 
 fs.mkdir(outputDIR, (err) => {
-  if (err) {
+  if (err && err.code != "EEXIST") {
     console.log("Unable to create DIR");
     console.error(err);
     process.exit(1);

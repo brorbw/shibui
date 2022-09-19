@@ -5,6 +5,8 @@ This project does not have a limit like the web page.
 
 This project will create a light and a dark wallpaper based on the `baseColor`. MacOS users can use a project like [Wallpapper](https://github.com/mczachurski/wallpapper) to create a dynamic wallpaper.
 
+![Side by side, dark and light](./example/Split.png)
+
 ### Prerequisites: 
 - node
 
@@ -26,7 +28,7 @@ npm run start <path-to-config>
 	"cellSize": 70, // size of triangles
 	"variance": 1, // variance in angles
 	"intensity": 0.1, // intensity of the coloring
-	"darkenAmount": 0.7, // 
+	"darkenAmount": 0.7, // amount to darken the dark image 
 	"baseColor": "212337"
 }
 ```
