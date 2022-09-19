@@ -23,8 +23,8 @@ npm run start <path-to-config>
 
 ``` json
 {
-	"width": 6000,
-	"height": 3000,
+	"width": 1920,
+	"height": 1080,
 	"cellSize": 70,
 	"variance": 1,
 	"intensity": 0.1,
