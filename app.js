@@ -27,7 +27,7 @@ const lightColors = scheme.from_hex(baseHex)
                           .colors().slice(1);
 
 const darkColors = lightColors.map( color => {
-  return Color(`#${color}`).darken(0.7).hex()
+  return Color(`#${color}`).darken(config.darkenAmount).hex()
 });
 
 const base = trianglify({
@@ -45,8 +45,7 @@ const base = trianglify({
 const dark = trianglify({
   width: width,
   height: height,
-	xColors: darkColors, // colors.map( color =>  invert(color) ),
-	// xColors: ['191a29', '212336', '2b2e47', '616883'],
+	xColors: darkColors,
   fill: true,
   colorSpace: 'lab',
   colorFunction: trianglify.colorFunctions.sparkle(config.intensity),
@@ -57,8 +56,7 @@ const dark = trianglify({
 const light = trianglify({
   width: width,
   height: height,
-	xColors: lightColors, // colors,
-	// xColors: ['e5e9f0', 'd8dee9', '88c0d0', '81a1c1', '414858'],
+	xColors: lightColors,
   fill: true,
   colorSpace: 'lab',
   colorFunction: trianglify.colorFunctions.sparkle(config.intensity),

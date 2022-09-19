@@ -4,5 +4,6 @@
 	"cellSize": 70,
 	"variance": 1,
 	"intensity": 0.1,
+	"darkenAmount": 0.7,
 	"baseColor": "212337"
 }
