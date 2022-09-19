@@ -23,13 +23,13 @@ npm run start <path-to-config>
 
 ``` json
 {
-	"width": 6000, // width of canvas
-	"height": 3000, // height of canvas
-	"cellSize": 70, // size of triangles
-	"variance": 1, // variance in angles
-	"intensity": 0.1, // intensity of the coloring
-	"darkenAmount": 0.7, // amount to darken the dark image 
-	"baseColor": "212337" // color to create color palette on
+	"width": 6000,
+	"height": 3000,
+	"cellSize": 70,
+	"variance": 1,
+	"intensity": 0.1,
+	"darkenAmount": 0.7,
+	"baseColor": "212337"
 }
 ```
 
@@ -40,16 +40,12 @@ npm run start <path-to-config>
 
 `height` - Height of canvas
 
-`cellSize` : Size of triangles
+`cellSize` - Size of triangles
 
-`variance`
-Variance in angles
+`variance` - Variance in angles
 
-`intensity`
-Intensity of the coloring
+`intensity` - Intensity of the coloring
 
-`darkenAmount`
-Amount to darken the dark image
+`darkenAmount` - Amount to darken the dark image
 
-`baseColor`
-Color to create color palette on
+`baseColor` - Color to create color palette on
