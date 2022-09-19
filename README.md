@@ -6,6 +6,8 @@ This project does not have a limit like the web page.
 ![Side by side, dark and light](./example/Split.png)
 
 This project will create a light and a dark wallpaper based on the `baseColor`. MacOS users can use a project like [Wallpapper](https://github.com/mczachurski/wallpapper) to create a dynamic wallpaper.
+
+
 ![Side by side, dark and light](./example/dynamic-wallpaper.gif)
 
 
