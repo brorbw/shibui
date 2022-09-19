@@ -29,6 +29,6 @@ npm run start <path-to-config>
 	"variance": 1, // variance in angles
 	"intensity": 0.1, // intensity of the coloring
 	"darkenAmount": 0.7, // amount to darken the dark image 
-	"baseColor": "212337"
+	"baseColor": "212337" // color to create color palette on
 }
 ```
