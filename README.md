@@ -3,9 +3,11 @@
 This small project is inspired by [trianglify](https://trianglify.io/). It will generate wallpapers with random patterns from a color palette from a hex.
 This project does not have a limit like the web page.
 
-This project will create a light and a dark wallpaper based on the `baseColor`. MacOS users can use a project like [Wallpapper](https://github.com/mczachurski/wallpapper) to create a dynamic wallpaper.
-
 ![Side by side, dark and light](./example/Split.png)
+
+This project will create a light and a dark wallpaper based on the `baseColor`. MacOS users can use a project like [Wallpapper](https://github.com/mczachurski/wallpapper) to create a dynamic wallpaper.
+![Side by side, dark and light](./example/dynamic-wallpaper.gif)
+
 
 ### Prerequisites: 
 - Node.js
