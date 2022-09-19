@@ -8,7 +8,7 @@ This project will create a light and a dark wallpaper based on the `baseColor`. 
 ![Side by side, dark and light](./example/Split.png)
 
 ### Prerequisites: 
-- node
+- Node.js
 
 ### Install
 
