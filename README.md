@@ -32,3 +32,27 @@ npm run start <path-to-config>
 	"baseColor": "212337" // color to create color palette on
 }
 ```
+
+#### Configurations
+
+
+`width`
+Width of canvas
+
+`height`
+Height of canvas
+
+`cellSize`
+Size of triangles
+
+`variance`
+Variance in angles
+
+`intensity`
+Intensity of the coloring
+
+`darkenAmount`
+Amount to darken the dark image
+
+`baseColor`
+Color to create color palette on
