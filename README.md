@@ -1,7 +1,7 @@
 # shibui - a particular aesthetic of simple, subtle, and unobtrusive beauty.
 
 This small project is inspired by [trianglify](https://trianglify.io/). It will generate wallpapers with random patterns from a color palette from a hex.
-This project does not have a limit like the web page.
+This project does not have a limit on resolution like the web page.
 
 ![Side by side, dark and light](./example/Split.png)
 
