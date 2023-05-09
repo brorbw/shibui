@@ -1,9 +1,9 @@
 {
 	"width": 6000,
 	"height": 3000,
-	"cellSize": 70,
+	"cellSize": 30,
 	"variance": 1,
-	"intensity": 0.1,
+	"intensity": 0.2,
 	"darkenAmount": 0.7,
 	"baseColor": "212337"
 }
